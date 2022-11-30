@@ -1,0 +1,27 @@
+.form {
+  width: 90%;
+  height: 50px;
+  margin:auto;
+  border-radius:16px;
+  background-color: #fff;
+}
+
+.input {
+  width:80%;
+  height:100%;
+  border: none;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding-left:20px;
+}
+
+.button {
+  background-color:#FED049;
+  border: none;
+  height:100%;
+  width:20%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: #00005C;
+  font-weight:bold;
+}

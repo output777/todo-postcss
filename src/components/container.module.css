@@ -1,0 +1,17 @@
+.container {
+  width:480px;
+  height: 500px;
+  background-color: #2A3990;
+  border-radius: 16px;
+  display: flex;
+  flex-direction:column;
+}
+
+.lightContainer {
+  width:480px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction:column;
+}

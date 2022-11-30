@@ -1,0 +1,40 @@
+.lists {
+  height:340px;
+  overflow-y: scroll;
+  -ms-overflow-style:none; /* IE and Edge */
+  scrollbar-width:none; /* Firefox */
+  color: #fff;
+}
+
+.lists::-webkit-scrollbar {
+	display:none /* Chrome , Safari , Opera */
+}
+
+.lightLists {
+  height:340px;
+  overflow-y: scroll;
+  -ms-overflow-style:none; /* IE and Edge */
+  scrollbar-width:none; /* Firefox */
+  color: #000;
+}
+
+.lightLists::-webkit-scrollbar {
+	display:none /* Chrome , Safari , Opera */
+}
+
+.list {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 18px 20px;
+  font-size: 24px;
+}
+
+.list div:first-child input {
+  margin-right: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: crimson;
+}
